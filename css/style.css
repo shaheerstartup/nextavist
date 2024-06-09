@@ -1,0 +1,444 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    background: #000000;
+}
+html {
+    font-size: 62.5%;
+}
+
+.hero-banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-banner .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.hero-banner .container .top {
+    height: 10rem !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.hero-banner .container .top .left {
+    width: 18.5rem;
+    height: auto;
+    position: relative;
+}
+
+.hero-banner .container .top .left .glow{
+    position: absolute;
+    top: -1.4rem;
+    overflow: visible;
+    left: -11.6rem;
+    z-index: 0;
+}
+
+.hero-banner .container .top .left img{
+    position: relative;
+    z-index: 1;
+}
+
+.hero-banner .container .top .mid ul {
+    display: flex;
+    gap: 5rem;
+}
+
+
+.hero-banner .container .top .mid ul li img {
+    width: 3rem;
+}
+
+.hero-banner .container .top .right {
+    width: 18.5rem;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lets-talk {
+    width: 13rem;
+    border: 1px solid #fff;
+    height: 4.5rem;
+    border-radius: .5rem;
+    background: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.lets-begin {
+    padding: 1.3rem 3.6rem;
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    background: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.hero-banner .container .middle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: -webkit-fill-available;
+}
+
+.hero-banner .container .middle .left,
+.hero-banner .container .middle .right{
+    width: 38rem;
+}
+
+.hero-banner .container .middle .mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-banner .container .middle .mid h1{
+    font-size: 10rem;
+    font-family: Zen Dots;
+    font-weight: 400;
+    color: white;
+}
+.hero-banner .container .middle .mid p{
+    font-size: 2rem;
+    color: white;
+    width: 85.2rem;
+    text-align: center;
+    font-family: Urbanist;
+}
+
+.hero-banner .container .middle .right{
+    display: flex;
+    justify-content: flex-end;;
+}
+
+.hero-banner .container .middle .right svg{
+    position:absolute;
+    overflow: visible;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: -50%;
+
+}
+
+.hero-banner .container .middle .right button{
+    margin-right: 5rem;
+    padding-right: 1.3rem;
+    background: none;
+    border: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 3rem;
+    gap: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    opacity: 0.3;
+    justify-content: center;
+}
+
+.hero-banner .container .middle .right img{
+    width: 3rem;
+    margin-bottom: 0;
+}
+
+.hero-banner .container .middle h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.hero-banner .container .middle img{
+    width: 60.6rem;
+    margin-bottom: 3rem;
+}
+
+.hero-banner .container .bottom {
+    height: 100px;
+}
+
+
+
+.sec2.teamAndWork{
+    width: 100%;
+    height: auto;
+    padding-top: 12.2rem;
+    
+}
+
+.sec2.teamAndWork .mainTopImg{
+    margin: auto;
+    display: block;
+} 
+.sec2.teamAndWork .portfolios{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 24rem;
+}
+
+.sec3.teamAndWork {
+margin-top: 24rem;
+color: white;
+}
+.sec3.teamAndWork .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec3.teamAndWork .top .mainH{
+    font-size: 6rem;   
+    font-weight: 400;
+    font-family: Zen Dots;
+    color: white;
+}
+.sec3.teamAndWork .top .subH{
+    font-size: 2rem;
+    width: 61rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    color: white;
+    font-family: Urbanist;
+}
+
+
+.sec3.teamAndWork .Team {
+    margin-top: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 24rem;
+}
+.sec3.teamAndWork .Team .person{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5.6rem;
+}
+.sec3.teamAndWork .Team .person .top {
+    display: block;
+}
+.sec3.teamAndWork .Team .person .top h2{
+    font-size: 4rem;
+    font-family: Syne;
+    font-weight: 700;
+}
+.sec3.teamAndWork .Team .person .top p{
+    font-family: Syne;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+
+.sec3.teamAndWork .Team .person .skills {
+    margin-top: 12.4rem;
+}
+.sec3.teamAndWork .Team .person .skills h2{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 29rem;
+    font-family: Syne;
+}
+.sec3.teamAndWork .Team .person .skills p{
+    font-family: Syne;
+font-size: 1.8rem;
+font-weight: 500;
+margin-bottom: 1rem;
+}
+
+.sec3.teamAndWork .Team .person .social {
+    margin-top: 6rem;
+}
+.sec3.teamAndWork .Team .person .social p{
+font-size: 1.8rem;
+font-family: Syne;
+margin-bottom: 1rem;
+font-weight: 700;
+}
+.sec3.teamAndWork .Team .person .social .icons{
+    display: flex;
+    gap: 3rem;
+}
+.sec3.teamAndWork .Team .person .residence {
+    margin-top: 9rem;
+}
+.sec3.teamAndWork .Team .person .residence p{
+    font-size: 1.8rem;
+font-family: Syne;
+font-weight: 700;
+}
+.sec3.teamAndWork .Team .person .residence h2{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Urbanist;
+    width: 19.6rem;
+}
+.sec3.teamAndWork .Team .middle{
+    position: absolute;
+    display: flex;
+    width: calc(100% - 11.2rem);
+    justify-content: center;
+}
+.sec3.teamAndWork .Team .middleImg{
+  border: 1.7rem solid rgba(255, 255, 255, 0.10);
+  border-radius: 1.5rem;
+    width: 59rem;
+    height: 59rem;
+}
+.sec3.teamAndWork .Team .right {
+    max-width: 44rem;
+    height: 100%;
+    margin-top: 13.1rem;
+}
+.sec3.teamAndWork .Team .right h2{
+    font-family: Syne;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+}
+.sec3.teamAndWork .Team .right p{
+    text-align: right;
+    font-size: 2rem;
+    font-family: Urbanist;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.sec3.teamAndWork .Team .right .tools {
+    margin-top: 6rem;
+}
+.sec3.teamAndWork .Team .right .tools p{
+    font-size: 1.8rem;
+    font-family: Syne;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.sec3.teamAndWork .Team .right .tools div{
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-end;
+}
+.sec3.teamAndWork .Team .right .tools div img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: contain;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(30px);
+}
+
+
+.newsletter {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter .mainH{
+    font-size: 6rem;
+    font-family: Zen Dots;
+    margin-bottom: 1.5rem;
+ margin-top: 17.6rem;   
+}
+.newsletter .subH{
+    font-size: 2rem;
+    font-family: Urbanist;
+    width: 61rem;
+    text-align: center;
+}
+.newsletter .input {
+    display: flex;
+    margin-top: 4rem;
+}
+.newsletter .input input{
+    width: 54.6rem;
+    height: 5rem;
+    margin-right: 2rem;
+    border-radius: 5px;
+    background: transparent;
+    padding-left: 2.5rem;
+    font-size: 1.8rem;
+    border: 1px solid #FFF;
+}
+
+
+footer{
+    margin: auto;
+    margin-top: 16rem;
+    width: 120rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .logo{
+    padding-bottom: 6rem;
+    width: 100%;
+    border-bottom: 1.5px solid white;
+    display: flex;
+    justify-content: center;
+}
+footer .socialLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+}
+footer .socialLinks p{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    font-family: Syne;
+    margin-bottom: 2rem;
+}
+footer .socialLinks div{
+    display: flex;
+    gap: 2.5rem;
+}
+footer .bottomText{
+    font-size: 2rem;
+    font-family: Urbanist;
+    color: white;
+    text-align: center;
+    width: 95.7rem;
+}
+footer .bottomText.copyright{
+    margin-top: 6rem;
+}
